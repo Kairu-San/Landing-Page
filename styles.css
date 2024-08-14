@@ -1,54 +1,142 @@
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Urbanist, sans-serif;
+* {
+  font-family: Urbanist, sans-serif;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Urbanist, sans-serif;
+}
+
 .main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #17242a;
-    padding: 25px;
-    gap: 30px;
-    color: #efefef;
-    font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #17242a;
+  padding: 25px 0;
+  gap: 30px;
+  color: #efefef;
+  font-size: 30px;
 }
 
 .logo > img {
-    border-radius: 5px;
+  border-radius: 5px;
+  transition: transform 0.1s ease;
 }
 
+.logo > img:hover {
+  border-radius: 5px;
+  transform: scale(1.1);
+}
 
 li {
-    list-style-type: none;
+  list-style-type: none;
+  transition: transform 0.1s ease;
+}
+
+li:hover {
+  list-style-type: none;
+  transform: scale(1.1);
 }
 
 a {
-    text-decoration: none;
-    color: #efefef;
+  text-decoration: none;
+  color: #efefef;
 }
 
 ul {
-    padding: 0;
-    margin: 0; 
-    display: flex;
-    gap: 32px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 32px;
 }
 
 .links {
-    display: flex;
-    font-size: 30px;
-    align-items: center;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    font-weight: 501;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-weight: 600;
+}
+
+.header-padding {
+  padding: 0 200px;
+  background-color: #17242a;
+}
+
+.opening-padding {
+  padding: 0 200px;
+  background-color: #3aafa9;
+}
+
+.opening {
+  display: flex;
+  padding: 100px 0;
+  gap: 50px;
+  color: #17242a;
+}
+
+.opening-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opening-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.opening-text {
+  font-size: 18px;
+}
+
+.opening-button > button {
+  border: none;
+  text-decoration: none;
+  background-color: #17242a;
+  color: #efefef;
+  padding: 15px 26px;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: transform 0.1s ease;
+}
+
+.opening-button > button:hover {
+  transform: scale(1.1);
+}
+
+.opening-button > button:active {
+  color: #17242a;
+  background-color: #efefef;
+}
+
+.opening-right > img {
+  border: 10px solid;
+  border-color: #2b7a78;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #2b7a78;
+  transition: transform 0.2s ease;
+}
+
+.opening-right > img:hover {
+  transform: rotate(10deg);
 }
