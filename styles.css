@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Urbanist, sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #17242a;
+    padding: 25px;
+    gap: 30px;
+    color: #efefef;
+    font-size: 50px;
+}
+
+.logo > img {
+    border-radius: 5px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+ul {
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    gap: 32px;
+}
+
+.links {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-weight: 501;
+}
