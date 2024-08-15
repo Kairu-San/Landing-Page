@@ -109,7 +109,7 @@ ul {
   padding: 15px 26px;
   font-size: 15px;
   border-radius: 5px;
-  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .opening-button button:hover {
@@ -118,8 +118,8 @@ ul {
 }
 
 .opening-button button:active {
-  color: #17242a;
-  background-color: #efefef;
+  transform: translateY(3px) scale(1);
+  box-shadow: inset 0 4px 3px 2px #000000;
 }
 
 .opening-right > img {
@@ -218,3 +218,51 @@ ul {
   text-decoration: underline;
 }
 
+.order-padding {
+  padding: 100px 200px;
+  background-color: #def2f1;
+}
+
+.order {
+  padding: 20px 80px;
+  background-color: #3aafa9b3;
+  color: #17242a;
+  border-radius: 5px;
+}
+
+.order-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.order-text {
+  font-size: 15px;
+  max-width: 80%;
+}
+
+.order-right button {
+  border: none;
+  background-color: #2b7a77ac;
+  border-radius: 5px;
+  color: #17242a;
+  padding: 10px 30px;
+  text-wrap: nowrap;
+  font-size: 16px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.order-right button:hover {
+  transform: scale(1.1);
+}
+
+.order-right button:active {
+  transform: translateY(3px) scale(1);
+  box-shadow: inset 0 2px 3px 1px #17242a;
+}
