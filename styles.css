@@ -34,17 +34,17 @@ body {
   transform: scale(1.1);
 }
 
-li {
+.links li {
   list-style-type: none;
   transition: transform 0.1s ease;
 }
 
-li:hover {
+.links li:hover {
   list-style-type: none;
   text-decoration: underline;
 }
 
-a {
+.links a {
   text-decoration: none;
   color: #efefef;
 }
@@ -101,7 +101,7 @@ ul {
   font-size: 18px;
 }
 
-.opening-button > button {
+.opening-button button {
   border: none;
   text-decoration: none;
   background-color: #17242a;
@@ -112,12 +112,12 @@ ul {
   transition: transform 0.1s ease;
 }
 
-.opening-button > button:hover {
+.opening-button button:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.opening-button > button:active {
+.opening-button button:active {
   color: #17242a;
   background-color: #efefef;
 }
@@ -143,8 +143,9 @@ ul {
 .gallery {
   display: flex;
   flex-direction: column;
-  padding: 30px 0;
+  padding: 30px 0 60px;
   gap: 20px;
+  color: #17242a;
 }
 
 .gallery-title {
@@ -183,3 +184,37 @@ ul {
 .customer img:hover {
   transform: scale(1.1);
 }
+
+.quote-padding {
+  background-color: #3aafa98c;
+  color: #17242a;
+  padding: 0 200px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 200px;
+  font-size: 18px;
+  gap: 15px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 19.5px;
+  font-weight: 600;
+}
+
+.quote a {
+  text-decoration: none;
+  color: #17242a;
+}
+
+.quote a:hover {
+  text-decoration: underline;
+}
+
