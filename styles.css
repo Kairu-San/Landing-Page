@@ -41,19 +41,12 @@ li {
 
 li:hover {
   list-style-type: none;
-  transform: scale(1.1);
+  text-decoration: underline;
 }
 
 a {
   text-decoration: none;
   color: #efefef;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 32px;
 }
 
 ul {
@@ -121,6 +114,7 @@ ul {
 
 .opening-button > button:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .opening-button > button:active {
@@ -139,4 +133,53 @@ ul {
 
 .opening-right > img:hover {
   transform: rotate(10deg);
+}
+
+.gallery-padding {
+  background-color: #def2f1;
+  padding: 0 200px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.gallery-title {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-images {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.customer img {
+  border-radius: 5px;
+  flex: 1 1 auto;
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transition: transform 0.1s ease;
+  border: 5px solid #2b7a78;
+  box-sizing: border-box;
+}
+
+.customer img:hover {
+  transform: scale(1.1);
 }
