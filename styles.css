@@ -75,7 +75,7 @@ ul {
 }
 
 .opening-padding {
-  padding: 0 200px;
+  padding: 60px 200px;
   background-color: #3aafa9;
 }
 
@@ -137,14 +137,14 @@ ul {
 
 .gallery-padding {
   background-color: #def2f1;
-  padding: 0 200px;
+  padding: 20px 200px;
 }
 
 .gallery {
   display: flex;
   flex-direction: column;
-  padding: 30px 0 60px;
-  gap: 20px;
+  padding: 20px 0 40px;
+  gap: 30px;
   color: #17242a;
 }
 
@@ -195,7 +195,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 200px 10%;
-  font-size: 18px;
+  font-size: 22px;
   gap: 15px;
 }
 
@@ -205,7 +205,7 @@ ul {
 
 .quote-author {
   text-align: end;
-  font-size: 19.5px;
+  font-size: 23.5px;
   font-weight: 600;
 }
 
@@ -237,13 +237,13 @@ ul {
 }
 
 .order-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .order-text {
-  font-size: 15px;
+  font-size: 16px;
   max-width: 80%;
 }
 
@@ -254,7 +254,7 @@ ul {
   color: #17242a;
   padding: 10px 30px;
   text-wrap: nowrap;
-  font-size: 16px;
+  font-size: 17px;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
@@ -275,6 +275,7 @@ ul {
   padding: 30px 0;
   background-color: #17242a;
   color: #efefef  ;
+  font-size: 18px;
 }
 
 .footer a {
